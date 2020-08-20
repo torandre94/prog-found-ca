@@ -18,13 +18,23 @@ else {
 }
 
 // question 4
+var numbers = [38, 84, 67, 21, 99];
 
+console.log(numbers[0]);
+console.log(numbers[1]);
+console.log(numbers[2]);
+console.log(numbers[3]);
+console.log(numbers[4]);
 
 // question 5
-
+for(var i = 15; i <= 25; i++) {
+  console.log(i);
+}
 
 // question 6
-
+for(var i = 15; i <= 25; i++) {
+  console.log(i = 20);
+}
 
 // question 7
 
