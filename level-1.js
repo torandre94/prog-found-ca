@@ -37,7 +37,27 @@ for(var i = 15; i <= 25; i++) {
 }
 
 // question 7
+var archives = [
+  
+  {
+    name: "Ola Normann",
+    age: 78,
+    married: true
+  },
+  
+  {
+    name: "Kari Svenske",
+    age: 63,
+    married: false
+  }
+];
 
+
+for(var i = 0; i < archives.length; i++) {
+
+  console.log(archives[i].age);
+  console.log(archives[i].married);
+}
 
 // question 8
 
