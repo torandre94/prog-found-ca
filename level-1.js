@@ -67,6 +67,11 @@ function whatIDontLike(dontLike) {
 whatIDontLike("cats");
 
 // question 9
+function subtractTwoNumbers(number1, number2) {
+  var sum = number1 - number2;
+  console.log(sum);
+}
 
+subtractTwoNumbers(250, 150);
 
 // question 10
