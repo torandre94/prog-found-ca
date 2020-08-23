@@ -75,3 +75,10 @@ function subtractTwoNumbers(number1, number2) {
 subtractTwoNumbers(250, 150);
 
 // question 10
+var age = [{ 
+  whatAgeIAm: function(theAge){
+  console.log("I am " + theAge + " years old")
+  }
+}];
+
+age[0].whatAgeIAm(25);
