@@ -60,7 +60,11 @@ for(var i = 0; i < archives.length; i++) {
 }
 
 // question 8
+function whatIDontLike(dontLike) {
+  console.log("I don´t like " + dontLike);
+}
 
+whatIDontLike("cats");
 
 // question 9
 
